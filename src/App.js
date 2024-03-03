@@ -8,6 +8,7 @@ const App = () => {
   const [inputValue, setInputValue] = useState('');
   const [floatingText, setFloatingText] = useState('');
 
+  
   const handleInputChange = e => {
     setInputValue(e.target.value);
   }
